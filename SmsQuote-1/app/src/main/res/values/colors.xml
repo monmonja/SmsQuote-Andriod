@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="body_text_1">#de000000</color>
+    <color name="body_text_2">#8a000000</color>
+    <color name="body_text_3">#60000000</color>
+    <color name="body_text_disabled">#44000000</color>
+
+
+    <color name="theme_primary">#F44336</color> <!-- 500 -->
+    <color name="theme_primary_dark">#D32F2F</color> <!-- 700 -->
+    <color name="theme_primary_light">#FFEBEE</color> <!-- 50 -->
+    <color name="theme_accent_1">#FF1744</color> <!-- A400 -->
+    <color name="theme_accent_1_light">#FF8A80</color> <!-- A100 -->
+
+    <color name="theme_accent_2">#3D5AFE</color> <!-- A400 -->
+    <color name="theme_accent_2_light">#536DFE</color> <!-- A200 -->
+
+    <color name="refresh_progress_1">@color/theme_accent_2</color>
+    <color name="refresh_progress_2">@color/theme_accent_1</color>
+    <color name="refresh_progress_3">@color/theme_primary_dark</color>
+    <color name="refresh_progress_4">@color/theme_primary_light</color>
+
+</resources>

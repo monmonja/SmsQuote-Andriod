@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FrameworkRoot.Theme" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="FrameworkRoot.Widget" parent="Theme.AppCompat" />
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base" parent="FrameworkRoot.Theme">
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent_2</item>
+
+        <item name="android:windowBackground">@color/theme_primary_light</item>
+    </style>
+
+    <style name="MainToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimaryDark</item>
+        <item name="titleTextAppearance">@style/MainToolbarTextAppearance</item>
+
+    </style>
+
+    <style name="MainToolbarTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
